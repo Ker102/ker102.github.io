@@ -7,14 +7,14 @@ An agent harness is the surrounding setup that lets an AI model act on a task. I
 New community submissions are welcome. Harneloop is optional. Review labels describe specific evidence; they do not guarantee every model/platform.
 
 ## Directory
-- [Catalog](https://kaelux-labs.github.io/harness-library/index.md): Overview and available harnesses.
-- [About the library](https://kaelux-labs.github.io/harness-library/about/index.md): Definitions, maintainer, review scope and FAQ.
-- [Submit a harness](https://kaelux-labs.github.io/harness-library/submit/index.md): Short issue-first submission process.
+- [Catalog](https://openrootdev.github.io/harness-library/index.md): Overview and available harnesses.
+- [About the library](https://openrootdev.github.io/harness-library/about/index.md): Definitions, maintainer, review scope and FAQ.
+- [Submit a harness](https://openrootdev.github.io/harness-library/submit/index.md): Short issue-first submission process.
 
 ## Harness installation guides
-- [Smooth Motion Graphics](https://kaelux-labs.github.io/harness-library/harnesses/smooth-motion-graphics/index.md): A compact skill for calm, clear brand animations.
-- [ViperMesh for Blender](https://kaelux-labs.github.io/harness-library/harnesses/vipermesh-blender/index.md): A local Blender MCP workflow for building and checking 3D scenes.
+- [Smooth Motion Graphics](https://openrootdev.github.io/harness-library/harnesses/smooth-motion-graphics/index.md): A compact skill for calm, clear brand animations.
+- [ViperMesh for Blender](https://openrootdev.github.io/harness-library/harnesses/vipermesh-blender/index.md): A local Blender MCP workflow for building and checking 3D scenes.
 
 ## Data
-- [Machine-readable catalog](https://kaelux-labs.github.io/harness-library/catalog.json): Reviewed listings with source, distribution, install steps, manual setup, license and evidence.
-- [Full text](https://kaelux-labs.github.io/harness-library/llms-full.txt): Combined public guide and installation text.
+- [Machine-readable catalog](https://openrootdev.github.io/harness-library/catalog.json): Reviewed listings with source, distribution, install steps, manual setup, license and evidence.
+- [Full text](https://openrootdev.github.io/harness-library/llms-full.txt): Combined public guide and installation text.

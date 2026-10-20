@@ -6,12 +6,12 @@ An agent harness is the surrounding setup that lets an AI model act on a task. I
 
 New submissions are welcome. We’re looking for practical harnesses people can actually install and use.
 
-- [Smooth Motion Graphics](https://kaelux-labs.github.io/harness-library/harnesses/smooth-motion-graphics/index.md): A compact skill for calm, clear brand animations.
-- [ViperMesh for Blender](https://kaelux-labs.github.io/harness-library/harnesses/vipermesh-blender/index.md): A local Blender MCP workflow for building and checking 3D scenes.
+- [Smooth Motion Graphics](https://openrootdev.github.io/harness-library/harnesses/smooth-motion-graphics/index.md): A compact skill for calm, clear brand animations.
+- [ViperMesh for Blender](https://openrootdev.github.io/harness-library/harnesses/vipermesh-blender/index.md): A local Blender MCP workflow for building and checking 3D scenes.
 
-Submit: https://kaelux-labs.github.io/harness-library/submit/index.md
-About: https://kaelux-labs.github.io/harness-library/about/index.md
-Machine-readable catalog: https://kaelux-labs.github.io/harness-library/catalog.json
+Submit: https://openrootdev.github.io/harness-library/submit/index.md
+About: https://openrootdev.github.io/harness-library/about/index.md
+Machine-readable catalog: https://openrootdev.github.io/harness-library/catalog.json
 
 
 # Submit an agent harness to Harness Library
@@ -20,10 +20,10 @@ Machine-readable catalog: https://kaelux-labs.github.io/harness-library/catalog.
 > New submissions are welcome. We’re looking for practical harnesses people can actually install and use.
 
 
-Canonical page: https://kaelux-labs.github.io/harness-library/submit/
+Canonical page: https://openrootdev.github.io/harness-library/submit/
 
 
-Submission form: https://github.com/Kaelux-Labs/harness-library/issues/new?template=submit-harness.yml
+Submission form: https://github.com/OpenRootdev/harness-library/issues/new?template=submit-harness.yml
 
 No fork or pull request is required. A GitHub account is needed for the form.
 
@@ -79,7 +79,7 @@ An agent harness is the surrounding setup that lets an AI model act on a task. I
 
 Maintained by Kristofer Jussmann (@Ker102): https://github.com/Ker102
 
-Source and review records: https://github.com/Kaelux-Labs/harness-library
+Source and review records: https://github.com/OpenRootdev/harness-library
 
 Harneloop is optional. Setup reviews and artifact checks are scoped evidence, not universal model/platform certification.
 
@@ -110,7 +110,7 @@ Yes. Browsing and submitting to the directory are free. You need a GitHub accoun
 > A compact skill for calm, clear brand animations.
 
 
-Canonical page: https://kaelux-labs.github.io/harness-library/harnesses/smooth-motion-graphics/
+Canonical page: https://openrootdev.github.io/harness-library/harnesses/smooth-motion-graphics/
 
 
 Category: Creative
@@ -212,7 +212,7 @@ https://harneloop.kaelux.dev
 > A local Blender MCP workflow for building and checking 3D scenes.
 
 
-Canonical page: https://kaelux-labs.github.io/harness-library/harnesses/vipermesh-blender/
+Canonical page: https://openrootdev.github.io/harness-library/harnesses/vipermesh-blender/
 
 
 Category: 3D & Blender
@@ -220,8 +220,8 @@ Version: 1.3.0
 License: MIT; preserve NOTICE.md attribution
 
 
-Source: https://github.com/Ker102/vipermesh-blender
-Distribution: https://github.com/Ker102/vipermesh-blender/releases/download/v1.3.0/vipermesh-blender-1.3.0.mcpb
+Source: https://github.com/OpenRootdev/vipermesh-blender
+Distribution: https://github.com/OpenRootdev/vipermesh-blender/releases/download/v1.3.0/vipermesh-blender-1.3.0.mcpb
 Scope: Focused MCPB server bundle. Install the separate Blender addon and optional source skill; the full mixed repository is not needed.
 
 
@@ -232,21 +232,21 @@ Scope: Focused MCPB server bundle. Install the separate Blender addon and option
 
 Download the addon from the release. In Blender, open Edit → Preferences → Add-ons → Install from Disk, select the downloaded Python addon file and enable ViperMesh for Blender. The maintainer currently tests Blender 5.2.
 
-Download Blender addon: https://github.com/Ker102/vipermesh-blender/releases/download/v1.3.0/vipermesh-for-blender-addon-v1.3.0.py
+Download Blender addon: https://github.com/OpenRootdev/vipermesh-blender/releases/download/v1.3.0/vipermesh-for-blender-addon-v1.3.0.py
 
 
 ### 2. Connect your MCP client
 
 Install Node.js 20+. Import the MCPB bundle into a client supporting local MCPB extensions. Keep the Blender viewport sidebar's ViperMesh Local Bridge running. Source-build/stdio configuration is documented in the repository for clients without MCPB import.
 
-Release, checksums and alternatives: https://github.com/Ker102/vipermesh-blender/releases/tag/v1.3.0
+Release, checksums and alternatives: https://github.com/OpenRootdev/vipermesh-blender/releases/tag/v1.3.0
 
 
 ### 3. Load the agent skill and start a session
 
 Read the skill plus its five relative reference files from the linked source folder. Copy the whole folder to your agent's documented skill location if desired. Have the agent bootstrap, inspect the existing scene and discover relevant operations before editing.
 
-Skill and reference folder: https://github.com/Ker102/vipermesh-blender/tree/main/skills/using-vipermesh-blender
+Skill and reference folder: https://github.com/OpenRootdev/vipermesh-blender/tree/main/skills/using-vipermesh-blender
 
 ```
 
@@ -292,4 +292,4 @@ setup-reviewed; reviewed 2026-10-10.
 
 Existing release assets, README installation and skill references reviewed. A live Blender bridge was not retested for this listing.
 
-Evidence source: https://github.com/Ker102/vipermesh-blender/releases/tag/v1.3.0
+Evidence source: https://github.com/OpenRootdev/vipermesh-blender/releases/tag/v1.3.0

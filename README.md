@@ -1,7 +1,6 @@
-# Legacy project URL continuity
+# Project URL continuity
 
-This small Pages site preserves the old Harness Library website URLs after its repository moved to [Kaelux Labs](https://github.com/Kaelux-Labs/harness-library). It serves instant HTML redirects, original badge images and discovery resources. It does not reuse the original Ker102/harness-library repository name, so GitHub repository redirects remain intact.
+This small Pages repository preserves old project pages, discovery resources and badge URLs after migration to OpenRootdev. HTML pages use immediate meta refresh and canonical links. GitHub repository redirects are preserved by not reusing the original project repository names.
 
-Canonical library: https://kaelux-labs.github.io/harness-library/
-
-GitHub Pages does not offer configurable server-side 301 redirects. Known HTML pages use zero-delay meta refresh and canonical URLs; Google documents instant meta refresh as permanent redirects. Existing source README badges continue to work. Keep this site available while old backlinks exist.
+- https://openrootdev.github.io/harness-library/
+- https://openrootdev.github.io/vipermesh-blender/
